@@ -9,7 +9,25 @@
  *   ```
  */
 
-class Item {}
+class Item {
+    constructor(id,name,quantity,price){
+        this.id = id;
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price
+    }
+
+    updateDetails(name,quantity,price){
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
+    displayDetails(id,name,quantity,price){
+        const detil = `ID: ${id}, Name: ${name}, Quantity: ${quantity}, Price: ${price}`;
+        return detil;
+    }
+}
 
 // Jangan hapus kode di bawah ini!
 export default Item;
