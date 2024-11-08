@@ -19,7 +19,7 @@ console.log(inventory.listItems());
  */
 
 item1.updateDetails( 'Laptop', 8, 950);
-console.log('\nInventory after update:');
+console.log('Inventory after update:');
 console.log(inventory.listItems());
 
 /**
@@ -30,7 +30,7 @@ console.log(inventory.listItems());
  */
 
 inventory.removeItem(2);
-console.log('\nInventory after removal:');
+console.log('Inventory after removal:');
 console.log(inventory.listItems());
 
 /**
