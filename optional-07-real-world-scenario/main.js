@@ -10,7 +10,7 @@ addOrder('Bob', [
   { name: 'Kopi', price: 10000 }
 ]);
 
-console.log(orders);
+console.log(JSON.stringify(orders,null,2));
 
 /**
  * Output yang diharapkan:
@@ -41,7 +41,7 @@ console.log(orders);
 updateOrderStatus(orders[0].id, 'Diproses');
 updateOrderStatus(orders[1].id, 'Selesai');
 
-console.log(orders);
+console.log(JSON.stringify(orders,null,2));
 
 /**
  * Output yang diharapkan:
@@ -78,7 +78,7 @@ console.log(calculateTotalRevenue());
 
 deleteOrder(orders[0].id);
 
-console.log(orders);
+console.log(JSON.stringify(orders,null,2));
 
 /**
  * Output yang diharapkan:
