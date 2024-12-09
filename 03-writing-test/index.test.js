@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { sum } from './index.mjs';
+import { sum } from './index.js';
 
 test('should add correctly', () => {
     // Arrange

@@ -1,4 +1,4 @@
-/** rznhy68 */
+/** "rznhy68" */
 /** 
  * Goal tahun ini:
  * 1. Belajar JavaScript.
